@@ -11,9 +11,9 @@ func CekGanjilGenap(num ...int) string {
 			coma = ""
 		}
 		if i%2 == 0 {
-			result = "genap" + coma + " "
+			result += "genap" + coma + " "
 		} else {
-			result = "ganjil" + coma + " "
+			result += "ganjil" + coma + " "
 		}
 	}
 	return result
